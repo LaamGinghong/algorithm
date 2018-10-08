@@ -33,7 +33,6 @@ function fibonacciRecursiveCache(num) {
     return typeof cache[num] === 'number' ? cache[num] : cache[num] = fibonacciRecursiveCache(num - 1) + fibonacciRecursiveCache(num - 2);
 }
 
-
 /*
 递归实现斐波那契数列纯函数法
  */
