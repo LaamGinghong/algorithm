@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="788a96ad-571a-4e91-80ed-a04ffc1afa95" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leastCommonMultiple.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/euclideanAlgorithm.js" beforeDir="false" afterPath="$PROJECT_DIR$/euclideanAlgorithm.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leastCommonMultiple.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/leastCommonMultiple.mjs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,13 +61,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="1556" />
-          <entry key="mjs" value="77" />
+          <entry key="mjs" value="178" />
           <entry key="ts" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ECMAScript 6" value="77" />
+          <entry key="ECMAScript 6" value="178" />
           <entry key="JavaScript" value="1556" />
           <entry key="TypeScript" value="29" />
         </counts>
@@ -98,26 +95,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leastCommonMultiple.mjs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/euclideanAlgorithm.mjs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -247,17 +225,17 @@
       <workItem from="1539046460375" duration="3995000" />
       <workItem from="1540179572930" duration="35000" />
       <workItem from="1540430216413" duration="6323000" />
-      <workItem from="1540792978935" duration="6507000" />
+      <workItem from="1540792978935" duration="7098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23881000" />
+    <option name="totallyTimeSpent" value="24472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14752372" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14752372" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -271,7 +249,7 @@
       <window_info anchor="bottom" id="调试" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50421494" side_tool="true" weight="0.32934782" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49578503" visible="true" weight="0.5032538" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49578503" weight="0.5032538" />
       <window_info anchor="bottom" id="运行" order="11" weight="0.329718" />
       <window_info anchor="bottom" id="TypeScript" order="12" weight="0.3286334" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
@@ -350,8 +328,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leastCommonMultiple.mjs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        <state relative-caret-position="400">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
