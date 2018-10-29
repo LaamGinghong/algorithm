@@ -1,4 +1,4 @@
-class EuclideanAlgorithm {
+export class EuclideanAlgorithm {
     constructor() {
     }
 
@@ -73,7 +73,3 @@ class EuclideanAlgorithm {
         return common[common.length - 1];
     }
 }
-
-console.log(EuclideanAlgorithm.iterative(71, 777));
-console.log(EuclideanAlgorithm.recursion(71, 777));
-console.log(EuclideanAlgorithm.compare(71, 777));
