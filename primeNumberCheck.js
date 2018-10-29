@@ -1,4 +1,4 @@
-class primeNumberCheck {
+class PrimeNumberCheck {
 
     constructor() {
     }
@@ -53,5 +53,3 @@ class primeNumberCheck {
         return primes;
     }
 }
-
-console.log(primeNumberCheck.sieveOfEratosthenes(20));
