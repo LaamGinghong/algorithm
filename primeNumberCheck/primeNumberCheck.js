@@ -3,6 +3,10 @@ class primeNumberCheck {
     constructor() {
     }
 
+    /*
+     * @param {number} number
+     * @return {boolean}
+     */
     static trialDivision(number) {
         if (number % 1 !== 0) { //去除非整数
             return false;

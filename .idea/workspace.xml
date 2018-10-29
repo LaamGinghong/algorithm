@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="788a96ad-571a-4e91-80ed-a04ffc1afa95" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primeNumberCheck/primeNumberCheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/primeNumberCheck/primeNumberCheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/euclidean algorithm/euclidean algorithm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factorial/factorial.js" beforeDir="false" afterPath="$PROJECT_DIR$/factorial/factorial.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,24 +61,53 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="35" />
+          <entry key="js" value="185" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="35" />
+          <entry key="JavaScript" value="185" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/euclidean algorithm/euclidean algorithm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/factorial/factorial.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -93,9 +122,10 @@
         <option value="$PROJECT_DIR$/fibonacci/fibonacci.html" />
         <option value="$PROJECT_DIR$/primeNumberCheck/primeNumberCheck.html" />
         <option value="$PROJECT_DIR$/primeNumberCheck/123.html" />
-        <option value="$PROJECT_DIR$/factorial/factorial.js" />
         <option value="$PROJECT_DIR$/fibonacci/fibonacci.js" />
         <option value="$PROJECT_DIR$/primeNumberCheck/primeNumberCheck.js" />
+        <option value="$PROJECT_DIR$/euclidean algorithm/euclidean algorithm.js" />
+        <option value="$PROJECT_DIR$/factorial/factorial.js" />
       </list>
     </option>
   </component>
@@ -130,6 +160,11 @@
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="factorial" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,15 +217,16 @@
       <workItem from="1539046460375" duration="3995000" />
       <workItem from="1540179572930" duration="35000" />
       <workItem from="1540430216413" duration="6323000" />
-      <workItem from="1540792978935" duration="372000" />
+      <workItem from="1540792978935" duration="661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17746000" />
+    <option name="totallyTimeSpent" value="18035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14752372" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -227,13 +263,6 @@
     <entry file="file://$PROJECT_DIR$/fibonacci/fibonacci.html" />
     <entry file="file://$PROJECT_DIR$/primeNumberCheck/primeNumberCheck.html" />
     <entry file="file://$PROJECT_DIR$/primeNumberCheck/123.html" />
-    <entry file="file://$PROJECT_DIR$/factorial/factorial.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fibonacci/fibonacci.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
@@ -245,6 +274,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/euclidean algorithm/euclidean algorithm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factorial/factorial.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>

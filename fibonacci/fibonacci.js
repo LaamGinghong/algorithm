@@ -12,7 +12,9 @@ class Algorithm {
     }
 
     /*
-    循环实现斐波那契数列
+     * 循环实现斐波那契数列
+     * @params {number} length
+     * @return {Array<number>}
      */
     static fibonacci(length) {
         const array = [];
@@ -29,21 +31,27 @@ class Algorithm {
     }
 
     /*
-    递归实现斐波那契数列通法
+     * 递归实现斐波那契数列通法
+     * @param {number} number
+     * @return {number}
      */
     fibonacciRecursive(number) {
         return number <= 1 ? number : this.fibonacciRecursive(number - 1) + this.fibonacciRecursive(number - 2);
     }
 
     /*
-    递归实现斐波那契数列缓存法
-    */
+     * 递归实现斐波那契数列缓存法
+     * @params {number} num
+     * @return {number}
+     */
     fibonacciRecursiveCache(num) {
         return typeof this.cache[num] === 'number' ? this.cache[num] : this.cache[num] = this.fibonacciRecursiveCache(num - 1) + this.fibonacciRecursiveCache(num - 2);
     }
 
     /*
-    递归实现斐波那契数列纯函数法
+     * 递归实现斐波那契数列纯函数法
+     * @params {number} num
+     * @return {number}
      */
     fibonacciRecursiveFunction() {
         const cache = [0, 1];
