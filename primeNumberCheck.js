@@ -4,6 +4,7 @@ class primeNumberCheck {
     }
 
     /*
+     * 切割法-判断单个数是否素数
      * @param {number} number
      * @return {boolean}
      */
@@ -28,6 +29,29 @@ class primeNumberCheck {
         }
         return true;
     }
+
+    /*
+     * 埃拉托斯特尼筛法-批量筛选素数
+     * @param {length} number
+     * @return {Array<number>}
+     */
+    static sieveOfEratosthenes(length) {
+        const isPrime = new Array(length + 1).fill(true);//先将所有数变成true，即所有数标记为素数
+        isPrime[0] = isPrime[1] = false;//0,1一定不为素数，去掉
+
+        const primes = [];
+        for (let i = 2; i <= length; i++) {
+            if (isPrime[i]) {
+                primes.push(i);
+            }
+            let nextNumber = i * i; //一个数的的自身倍数一定不是素数
+            while (nextNumber <= length) {
+                isPrime[nextNumber] = false;
+                nextNumber += i;
+            }
+        }
+        return primes;
+    }
 }
 
-console.log(primeNumberCheck.trialDivision(3));
+console.log(primeNumberCheck.sieveOfEratosthenes(20));
