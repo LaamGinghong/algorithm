@@ -14,7 +14,7 @@ class Algorithm {
     /**
      * 循环实现斐波那契数列
      * @param length {number}
-     * @return Array<number>
+     * @return {Array<number>}
      */
     static fibonacci(length) {
         const array = [];
@@ -61,5 +61,3 @@ class Algorithm {
     }
 }
 
-const algorithm = new Algorithm();
-console.log(Algorithm.fibonacci(10));

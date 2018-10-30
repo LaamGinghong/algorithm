@@ -2,10 +2,10 @@ class IsPowerOfTwo {
     constructor() {
     }
 
-    /*
+    /**
      * 排除法
-     * @param (number) number
-     * @return boolean
+     * @param number {number}
+     * @return {boolean}
      */
     static common(number) {
         if (number < 1) { //一个数的2次幂必不为0
@@ -22,10 +22,10 @@ class IsPowerOfTwo {
         return true;
     }
 
-    /*
+    /**
      * 位运算法
-     * @param (number) number
-     * @return boolean
+     * @param number {number}
+     * @return {boolean}
      */
     static bitWise(number) {
         if (number < 1) {

@@ -3,7 +3,7 @@ class PrimeNumberCheck {
     constructor() {
     }
 
-    /*
+    /**
      * 切割法-判断单个数是否素数
      * @param {number} number
      * @return {boolean}
@@ -30,9 +30,9 @@ class PrimeNumberCheck {
         return true;
     }
 
-    /*
+    /**
      * 埃拉托斯特尼筛法-批量筛选素数
-     * @param {length} number
+     * @param length {number}
      * @return {Array<number>}
      */
     static sieveOfEratosthenes(length) {

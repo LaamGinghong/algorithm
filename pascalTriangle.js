@@ -1,9 +1,9 @@
 class PascalTriangle {
 
-    /*
+    /**
      * 循环法
-     * @param {length} number
-     * @return Array<number>
+     * @param length {number}
+     * @return {Array<number>}
      */
     static circulation(length) {
         const currentLine = [1];
@@ -15,10 +15,10 @@ class PascalTriangle {
         return currentLine;
     }
 
-    /*
+    /**
      * 递归法
-     * @param {length} number
-     * @return Array<number>
+     * @param length {number}
+     * @return {Array<number>}
      */
     static recursive(length) {
         if (length === 0) {
