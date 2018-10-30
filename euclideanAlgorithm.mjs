@@ -2,10 +2,11 @@ export class EuclideanAlgorithm {
     constructor() {
     }
 
-    /*
+    /**
      * 循环相减法
-     * @param {numberA} number
-     * @param {numberB} number
+
+     * @param numberA {number}
+     * @param numberB {number}
      * @return number
      */
     static iterative(numberA, numberB) {
@@ -17,11 +18,11 @@ export class EuclideanAlgorithm {
         return a || b;
     }
 
-    /*
+    /**
      * 递归模运算法
-     * param {numberA} number
-     * param {numberB} number
-     * return number
+     * @param numberA {number}
+     * @param numberB {number}
+     * @return number
      */
     static recursion(numberA, numberB) {
         const a = Math.abs(numberA);
@@ -29,8 +30,11 @@ export class EuclideanAlgorithm {
         return b === 0 ? a : EuclideanAlgorithm.recursion(b, a % b);
     }
 
-    /*
+    /**
      * 循环比较法
+     * @param numberA {number}
+     * @param numberB {number}
+     * @return number
      */
     static compare(numberA, numberB) {
         const a = [], b = [];
