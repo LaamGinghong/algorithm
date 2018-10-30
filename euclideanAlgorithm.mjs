@@ -2,7 +2,7 @@ export class EuclideanAlgorithm {
     constructor() {
     }
 
-    /*
+    /**
      * 循环相减法
      * @param {numberA} number
      * @param {numberB} number
