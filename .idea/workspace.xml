@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="788a96ad-571a-4e91-80ed-a04ffc1afa95" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/integerPartition.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/euclideanAlgorithm.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/euclideanAlgorithm.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factorial.js" beforeDir="false" afterPath="$PROJECT_DIR$/factorial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fibonacci.js" beforeDir="false" afterPath="$PROJECT_DIR$/fibonacci.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/isPowerOfTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/isPowerOfTwo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leastCommonMultiple.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/leastCommonMultiple.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pascalTriangle.js" beforeDir="false" afterPath="$PROJECT_DIR$/pascalTriangle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primeNumberCheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/primeNumberCheck.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integerPartition.js" beforeDir="false" afterPath="$PROJECT_DIR$/integerPartition.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,7 +62,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="3207" />
+          <entry key="js" value="3784" />
           <entry key="md" value="704" />
           <entry key="mjs" value="321" />
           <entry key="ts" value="29" />
@@ -79,23 +71,23 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="ECMAScript 6" value="321" />
-          <entry key="JavaScript" value="3207" />
+          <entry key="JavaScript" value="3784" />
           <entry key="Markdown" value="704" />
           <entry key="TypeScript" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="41" />
+          <entry key="js" value="45" />
           <entry key="md" value="2" />
-          <entry key="mjs" value="17" />
+          <entry key="mjs" value="18" />
           <entry key="ts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ECMAScript 6" value="17" />
-          <entry key="JavaScript" value="41" />
+          <entry key="ECMAScript 6" value="18" />
+          <entry key="JavaScript" value="45" />
           <entry key="Markdown" value="2" />
           <entry key="TypeScript" value="1" />
         </counts>
@@ -109,7 +101,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/integerPartition.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -146,7 +148,6 @@
         <option value="$PROJECT_DIR$/euclideanAlgorithm.js" />
         <option value="$PROJECT_DIR$/leastCommonMultiple.js" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/integerPartition.js" />
         <option value="$PROJECT_DIR$/primeNumberCheck.js" />
         <option value="$PROJECT_DIR$/euclideanAlgorithm.mjs" />
         <option value="$PROJECT_DIR$/factorial.js" />
@@ -154,6 +155,7 @@
         <option value="$PROJECT_DIR$/isPowerOfTwo.js" />
         <option value="$PROJECT_DIR$/leastCommonMultiple.mjs" />
         <option value="$PROJECT_DIR$/pascalTriangle.js" />
+        <option value="$PROJECT_DIR$/integerPartition.js" />
       </list>
     </option>
   </component>
@@ -248,12 +250,12 @@
       <workItem from="1540430216413" duration="6323000" />
       <workItem from="1540792978935" duration="15239000" />
       <workItem from="1540868740601" duration="183000" />
-      <workItem from="1540877951478" duration="2601000" />
+      <workItem from="1540877951478" duration="3698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35397000" />
+    <option name="totallyTimeSpent" value="36494000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,8 +268,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14330874" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14330874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -281,7 +284,7 @@
       <window_info anchor="bottom" id="调试" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50421494" side_tool="true" weight="0.32838982" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49578503" weight="0.38503253" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49578503" visible="true" weight="0.15075922" />
       <window_info anchor="bottom" id="运行" order="11" weight="0.329718" />
       <window_info anchor="bottom" id="TypeScript" order="12" weight="0.3286334" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
@@ -323,38 +326,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factorial.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fibonacci.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isPowerOfTwo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integerPartition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leastCommonMultiple.mjs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -369,6 +344,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factorial.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leastCommonMultiple.mjs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isPowerOfTwo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integerPartition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
         </state>
       </provider>
     </entry>
