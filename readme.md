@@ -58,8 +58,8 @@
         <td>输入一个数，用于切割圆的次数</td>
     </tr>
     <tr>
-        <td></td>
+        <td>cartesianProduct.js</td>
         <td>笛卡尔积</td>
-        <td></td>
+        <td>输入两个集合，返回这两个集合的笛卡尔积</td>
     </tr>
 </table>
