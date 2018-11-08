@@ -37,4 +37,24 @@
         <td>求对小公倍数</td>
         <td>输入两个数，找出两个数的最小公倍数。</td>
     </tr>
+    <tr>
+        <td>pascalTriangle.js</td>
+        <td>杨辉三角</td>
+        <td>输入一个数，获取对应列的数组</td>
+    </tr>
+    <tr>
+        <td>integerParititon.js</td>
+        <td>整数拆分</td>
+        <td>输入一个数,获取对应数的整数拆分种类数目</td>
+    </tr>
+    <tr>
+        <td>isPowerOfTwo.js</td>
+        <td>判断是否是2次幂</td>
+        <td>输入一个数，判断该数是否是2次幂</td>
+    </tr>
+    <tr>
+        <td>cyclootomy.js</td>
+        <td>割圆术</td>
+        <td>输入一个数，用于切割圆的次数</td>
+    </tr>
 </table>
