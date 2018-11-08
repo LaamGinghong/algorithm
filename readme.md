@@ -1,11 +1,11 @@
-#常见算法JavaScript实现
+# 常见算法JavaScript实现
 
-##本地Node实现算法结果
+## 本地Node实现算法结果
 &emsp;&emsp;如果文件扩展名是.js，则在命令行直接运行`node  对应文件名`。<br>
 &emsp;&emsp;如果文件扩展名是.mjs，则在命令行输入`node --experimental-modules 对应文件名`。<br>
 &emsp;&emsp;如果想要查看对应算法的结果，则在对应算法文件的对应方法中加入console。
 
-##对应算法解释
+## 对应算法解释
 <table>
     <tr>
         <td>文件名</td>
