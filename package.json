@@ -2,7 +2,6 @@
   "name": "algorithm",
   "version": "1.0.0",
   "description": "typescript algorithm.",
-  "main": "src/index.ts",
   "repository": "git@github.com:/LaamGinghong/algorithm.git",
   "author": "LaamGinghong <351390560@qq.com>",
   "license": "MIT",
