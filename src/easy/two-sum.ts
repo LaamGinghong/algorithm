@@ -1,5 +1,5 @@
-function twoSum(nums: number[], target: number): [number, number] {
-    const map = {}
+function twoSum(nums: number[], target: number) {
+    const map: { [key: number]: number } = {}
     let index = 0 // 当前索引
     let difference: number // 当前值于目标值的差
     while (index < nums.length) {
