@@ -19,3 +19,32 @@ function isPalindrome2(x: number) {
 }
 
 console.log(isPalindrome2(1))
+
+interface ListNode {
+    value: ListNode
+    next?: ListNode
+}
+
+function isPalindrome3(head: ListNode) {
+    let mid = head
+    let pre: ListNode = null
+    let reversed: ListNode = null
+    while (head !== null && head.next !== null) {
+        pre = mid
+        head = head.next.next
+        mid = mid.next
+        pre.next = reversed
+        reversed = pre
+    }
+    if (head) {
+        mid = mid.next
+    }
+    while (mid) {
+        if (reversed.value !== mid.value) {
+            return false
+        }
+        reversed = reversed.next
+        mid = mid.next
+    }
+    return true
+}

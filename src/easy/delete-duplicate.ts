@@ -1,5 +1,5 @@
 interface ListNode {
-    value?: ListNode
+    value: ListNode
     next?: ListNode
 }
 
