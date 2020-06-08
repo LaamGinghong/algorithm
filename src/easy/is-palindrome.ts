@@ -20,8 +20,6 @@ function isPalindrome2(x: number) {
     }
 }
 
-console.log(isPalindrome2(1))
-
 function isPalindrome3(head: ListNode) {
     let mid = head
     let pre: ListNode = null
@@ -42,6 +40,19 @@ function isPalindrome3(head: ListNode) {
         }
         reversed = reversed.next
         mid = mid.next
+    }
+    return true
+}
+
+function isPalindrome4(str: string) {
+    str = str.replace(/[^0-9a-zA-Z]/g, '').toLocaleLowerCase()
+    let left = 0, right = str.length - 1
+    while (left < right) {
+        if (str[left] !== str[right]) {
+            return false
+        }
+        left++
+        right--
     }
     return true
 }
