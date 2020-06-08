@@ -1,7 +1,4 @@
-interface ListNode {
-    value: ListNode
-    next?: ListNode
-}
+import {ListNode} from '../list-node'
 
 function mergeTwoLists(l1: ListNode, l2: ListNode) {
     if (l1 === null || l1 === undefined) {
@@ -16,5 +13,3 @@ function mergeTwoLists(l1: ListNode, l2: ListNode) {
         return l2
     }
 }
-
-console.log(mergeTwoLists({}, {}))

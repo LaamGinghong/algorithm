@@ -1,3 +1,5 @@
+import {ListNode} from '../list-node'
+
 function isPalindrome1(x: number) {
     return x.toString() === x.toString().split('').reverse().join('')
 }
@@ -19,11 +21,6 @@ function isPalindrome2(x: number) {
 }
 
 console.log(isPalindrome2(1))
-
-interface ListNode {
-    value: ListNode
-    next?: ListNode
-}
 
 function isPalindrome3(head: ListNode) {
     let mid = head

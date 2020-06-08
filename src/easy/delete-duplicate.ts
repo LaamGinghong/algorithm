@@ -1,7 +1,4 @@
-interface ListNode {
-    value: ListNode
-    next?: ListNode
-}
+import {ListNode} from '../list-node'
 
 function deleteDuplicate(head: ListNode) {
     let current = head
