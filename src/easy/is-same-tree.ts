@@ -1,8 +1,4 @@
-interface TreeNode {
-    value: any
-    left?: TreeNode
-    right?: TreeNode
-}
+import {TreeNode} from '../tree-node'
 
 function isSameTree(p: TreeNode, q: TreeNode) {
     if (p === null && q === null) return true

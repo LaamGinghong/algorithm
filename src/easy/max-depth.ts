@@ -1,7 +1,4 @@
-interface TreeNode {
-    left?: TreeNode
-    right?: TreeNode
-}
+import {TreeNode} from "../tree-node";
 
 function maxDepth(root: TreeNode) {
     if (!root) {
