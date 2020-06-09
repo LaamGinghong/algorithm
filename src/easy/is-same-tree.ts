@@ -1,10 +1,10 @@
-interface ListNode {
+interface TreeNode {
     value: any
-    left?: ListNode
-    right?: ListNode
+    left?: TreeNode
+    right?: TreeNode
 }
 
-function isSameTree(p: ListNode, q: ListNode) {
+function isSameTree(p: TreeNode, q: TreeNode) {
     if (p === null && q === null) return true
     if (p === null || q === null) return false
     if (p.value !== q.value) return false
