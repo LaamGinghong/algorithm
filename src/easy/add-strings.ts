@@ -8,7 +8,7 @@ function addStrings(num1: string, num2: string) {
     }
     let answer = ''
     let flag = 0
-    for (let i = 0; i < num1.length; i++) {
+    for (let i = num1.length - 1; i >= 0; i--) {
         let target = parseInt(num1[i]) + parseInt(num2[i]) + flag
         if (target >= 10) {
             target = target % 10
@@ -23,3 +23,5 @@ function addStrings(num1: string, num2: string) {
     }
     return answer
 }
+
+console.log(addStrings('9', '99'))
