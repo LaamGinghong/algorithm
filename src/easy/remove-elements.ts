@@ -1,15 +1,25 @@
-import {ListNode} from '../list-node'
+class List {
+    value: any
+    next: List
 
-function removeElements(head: ListNode, value: any) {
-    let pre: ListNode, current = head
-    pre.next = head
+    constructor(value: any) {
+        this.value = value
+        this.next = null
+    }
+}
+
+function removeElements(head: List, value: any) {
+    const list = new List(null)
+    let prev = list, current = head
+    list.next = head
     while (current) {
         if (current.value === value) {
-            pre.next = current.next
-            current = pre.next
+            prev.next = current.next
+            current = current.next
         } else {
-            pre = current
+            prev = current
             current = current.next
         }
     }
+    return list.next
 }
