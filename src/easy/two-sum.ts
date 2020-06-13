@@ -1,4 +1,4 @@
-function twoSum(nums: number[], target: number) {
+function twoSum1(nums: number[], target: number) {
     const map: { [key: number]: number } = {}
     let index = 0 // 当前索引
     let difference: number // 当前值于目标值的差
@@ -12,4 +12,16 @@ function twoSum(nums: number[], target: number) {
     }
 }
 
-console.log(twoSum([2, 7, 11, 15], 9))
+function twoSum2(numbers: number[], target: number) {
+    let i = 0, j = numbers.length - 1
+    while (i < j) {
+        const sum = numbers[i] + numbers[j]
+        if (sum === target) {
+            return [i, j]
+        } else if (sum > target) {
+            j--
+        } else {
+            i++
+        }
+    }
+}
