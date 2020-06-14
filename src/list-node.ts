@@ -1,4 +1,4 @@
 export interface ListNode {
-    value: any
-    next?: ListNode
+  value: any
+  next?: ListNode
 }
