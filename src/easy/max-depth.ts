@@ -1,4 +1,5 @@
 import { TreeNode } from '../tree-node'
+import { Node } from '../node'
 
 // 二叉树
 function maxDepth1(root: TreeNode) {
@@ -8,15 +9,10 @@ function maxDepth1(root: TreeNode) {
   return Math.max(maxDepth1(root.left), maxDepth1(root.right)) + 1
 }
 
-interface NTreeNode {
-  value: number
-  children: NTreeNode[]
-}
-
 // N叉数
-function maxDepth2(root: NTreeNode) {
+function maxDepth2(root: Node) {
   let maxDepth = Number.MIN_SAFE_INTEGER
-  function helper(node: NTreeNode, depth: number) {
+  function helper(node: Node, depth: number) {
     if (!node) return
     if (!node.children.length) {
       maxDepth = Math.max(depth, maxDepth)

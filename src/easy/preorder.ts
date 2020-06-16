@@ -6,11 +6,9 @@ function preorder(root: Node) {
   function helper(node: Node) {
     if (!node) return
     list.push(node.value)
-    if (node.children) {
-      for (let i = 0; i < node.children.length; i++) {
-        const child = node.children[i]
-        helper(child)
-      }
+    for (let i = 0; i < node.children.length; i++) {
+      const child = node.children[i]
+      helper(child)
     }
   }
 

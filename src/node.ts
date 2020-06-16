@@ -1,4 +1,4 @@
 export interface Node {
   value: any
-  children?: Node[]
+  children: Node[]
 }

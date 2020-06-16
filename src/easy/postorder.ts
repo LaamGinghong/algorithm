@@ -5,11 +5,9 @@ function postorder(root: Node) {
 
   function helper(node: Node) {
     if (!node) return
-    if (node.children) {
-      for (let i = 0; i < node.children.length; i++) {
-        const child = node.children[i]
-        helper(child)
-      }
+    for (let i = 0; i < node.children.length; i++) {
+      const child = node.children[i]
+      helper(child)
     }
     list.push(node)
   }
