@@ -22,9 +22,15 @@ function levelOrder(root: Node) {
 const node: Node = {
   value: 1,
   children: [
-    { value: 3, children: [{ value: 5 }, { value: 6 }] },
-    { value: 2 },
-    { value: 4 },
+    {
+      value: 3,
+      children: [
+        { value: 5, children: [] },
+        { value: 6, children: [] },
+      ],
+    },
+    { value: 2, children: [] },
+    { value: 4, children: [] },
   ],
 }
 
