@@ -1,13 +1,12 @@
 function containerDuplicate(nums: number[]) {
-    const hash: { [key: number]: number } = {}
-    for (let i = 0; i < nums.length; i++) {
-        const num = nums[i]
-        if (num in hash) {
-            hash[num] += 1
-        } else {
-            hash[num] = 1
-        }
-    }
-    return Object.values(hash).some(value => value > 1)
-}
+  const numSet = new Set<number>()
 
+  for (const num of nums) {
+    if (numSet.has(num)) {
+      return true
+    } else {
+      numSet.add(num)
+    }
+  }
+  return false
+}
