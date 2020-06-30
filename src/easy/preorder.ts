@@ -1,9 +1,9 @@
-import { Node } from '../node'
+import { NodeOptions } from '../node'
 
-function preorder(root: Node) {
+function preorder(root: NodeOptions) {
   const list = []
 
-  function helper(node: Node) {
+  function helper(node: NodeOptions) {
     if (!node) return
     list.push(node.value)
     for (let i = 0; i < node.children.length; i++) {

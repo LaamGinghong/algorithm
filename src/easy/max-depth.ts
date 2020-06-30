@@ -1,8 +1,8 @@
-import { TreeNode } from '../tree-node'
-import { Node } from '../node'
+import { TreeNodeOptions } from '../tree-node'
+import { NodeOptions } from '../node'
 
 // 二叉树
-function maxDepth1(root: TreeNode) {
+function maxDepth1(root: TreeNodeOptions) {
   if (!root) {
     return 0
   }
@@ -10,9 +10,9 @@ function maxDepth1(root: TreeNode) {
 }
 
 // N叉数
-function maxDepth2(root: Node) {
+function maxDepth2(root: NodeOptions) {
   let maxDepth = Number.MIN_SAFE_INTEGER
-  function helper(node: Node, depth: number) {
+  function helper(node: NodeOptions, depth: number) {
     if (!node) return
     if (!node.children.length) {
       maxDepth = Math.max(depth, maxDepth)

@@ -1,9 +1,9 @@
-import { Node } from '../node'
+import { NodeOptions } from '../node'
 
-function levelOrder(root: Node) {
+function levelOrder(root: NodeOptions) {
   const list: number[][] = []
 
-  function helper(node: Node, level: number) {
+  function helper(node: NodeOptions, level: number) {
     if (!node) return
     list[level] = list[level] || []
     list[level].push(node.value)
@@ -19,7 +19,7 @@ function levelOrder(root: Node) {
   return list
 }
 
-const node: Node = {
+const node: NodeOptions = {
   value: 1,
   children: [
     {

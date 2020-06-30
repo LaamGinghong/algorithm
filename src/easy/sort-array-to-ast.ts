@@ -1,4 +1,4 @@
-import { TreeNode as TreeNodeOptions } from '../tree-node'
+import { TreeNodeOptions } from '../tree-node'
 
 class TreeNode implements TreeNodeOptions {
   value: number

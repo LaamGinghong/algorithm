@@ -1,5 +1,5 @@
-export interface TreeNode {
-    value: any
-    left?: TreeNode
-    right?: TreeNode
+export interface TreeNodeOptions {
+  value: any
+  left?: TreeNodeOptions
+  right?: TreeNodeOptions
 }

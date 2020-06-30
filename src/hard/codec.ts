@@ -1,7 +1,7 @@
-import { Node } from '../node'
+import { NodeOptions } from '../node'
 
 class Codec {
-  serialize = (root: Node): string => JSON.stringify(root)
+  serialize = (root: NodeOptions): string => JSON.stringify(root)
 
-  deserialize = (data: string): Node => JSON.parse(data) as Node
+  deserialize = (data: string): NodeOptions => JSON.parse(data) as NodeOptions
 }

@@ -1,6 +1,6 @@
-import { TreeNode } from '../tree-node'
+import { TreeNodeOptions } from '../tree-node'
 
-function hasPathSum(root: TreeNode, sum: number) {
+function hasPathSum(root: TreeNodeOptions, sum: number) {
   if (root === null) {
     return false
   }

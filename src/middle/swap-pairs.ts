@@ -1,6 +1,6 @@
-import { ListNode } from '../list-node'
+import { ListNodeOptions } from '../list-node'
 
-function swapPairs(head: ListNode) {
+function swapPairs(head: ListNodeOptions) {
   if (!head || !head.next) return head
 
   const { next } = head

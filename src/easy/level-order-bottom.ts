@@ -1,13 +1,13 @@
-import { TreeNode } from '../tree-node'
+import { TreeNodeOptions } from '../tree-node'
 
 // 广度优先
-function levelOrderBottom1(root: TreeNode) {
+function levelOrderBottom1(root: TreeNodeOptions) {
   if (!root) return []
   const result = []
-  let level: TreeNode[] = [root]
+  let level: TreeNodeOptions[] = [root]
   while (level.length) {
     const current = []
-    const temp: TreeNode[] = []
+    const temp: TreeNodeOptions[] = []
     while (level.length) {
       const node = level.shift()
       current.push(node.value)
@@ -21,9 +21,9 @@ function levelOrderBottom1(root: TreeNode) {
 }
 
 // 深度优先
-function levelOrderBottom2(root: TreeNode) {
+function levelOrderBottom2(root: TreeNodeOptions) {
   const result: any[][] = []
-  function dep(node: TreeNode, depth: number) {
+  function dep(node: TreeNodeOptions, depth: number) {
     if (!node) return
     result[depth] = result[depth] || []
     result[depth].push(node.value)

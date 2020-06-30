@@ -1,7 +1,7 @@
-import { ListNode } from '../list-node'
+import { ListNodeOptions } from '../list-node'
 
-function reverseList(head: ListNode) {
-  let prev: ListNode
+function reverseList(head: ListNodeOptions) {
+  let prev: ListNodeOptions
   let current = head
   while (current) {
     const next = current.next

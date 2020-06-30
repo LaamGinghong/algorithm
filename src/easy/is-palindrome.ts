@@ -1,4 +1,4 @@
-import { ListNode } from '../list-node'
+import { ListNodeOptions } from '../list-node'
 
 function isPalindrome1(x: number) {
   return x.toString() === x.toString().split('').reverse().join('')
@@ -18,10 +18,10 @@ function isPalindrome2(x: number) {
   }
 }
 
-function isPalindrome3(head: ListNode) {
+function isPalindrome3(head: ListNodeOptions) {
   let mid = head
-  let pre: ListNode = null
-  let reversed: ListNode = null
+  let pre: ListNodeOptions = null
+  let reversed: ListNodeOptions = null
   while (head !== null && head.next !== null) {
     pre = mid
     head = head.next.next

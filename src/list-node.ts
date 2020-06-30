@@ -1,4 +1,12 @@
-export interface ListNode {
+export interface ListNodeOptions {
   value: any
-  next?: ListNode
+  next?: ListNodeOptions
+}
+
+export default class ListNode implements ListNodeOptions {
+  value: any
+
+  constructor(value) {
+    this.value = value
+  }
 }

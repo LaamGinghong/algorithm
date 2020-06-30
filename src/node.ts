@@ -1,4 +1,4 @@
-export interface Node {
+export interface NodeOptions {
   value: any
-  children: Node[]
+  children: NodeOptions[]
 }
