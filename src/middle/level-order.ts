@@ -1,37 +1,16 @@
-import { NodeOptions } from '../node'
+import { TreeNodeOptions } from '../tree-node'
 
-function levelOrder(root: NodeOptions) {
+function levelOrder(root: TreeNodeOptions) {
   const list: number[][] = []
 
-  function helper(node: NodeOptions, level: number) {
+  function helper(node: TreeNodeOptions, level: number) {
     if (!node) return
-    list[level] = list[level] || []
+    list[level] = list[level] ?? []
     list[level].push(node.value)
-    if (node.children) {
-      node.children.forEach((child) => {
-        helper(child, level + 1)
-      })
-    }
+    if (node.left) helper(node.left, level + 1)
+    if (node.right) helper(node.right, level + 1)
   }
 
   helper(root, 0)
-  console.log(list)
   return list
 }
-
-const node: NodeOptions = {
-  value: 1,
-  children: [
-    {
-      value: 3,
-      children: [
-        { value: 5, children: [] },
-        { value: 6, children: [] },
-      ],
-    },
-    { value: 2, children: [] },
-    { value: 4, children: [] },
-  ],
-}
-
-levelOrder(node)
