@@ -1,6 +1,6 @@
 export interface ListNodeOptions {
   value: any
-  next?: ListNodeOptions
+  next: ListNodeOptions
 }
 
 export default class ListNode implements ListNodeOptions {

@@ -1,14 +1,4 @@
-import { TreeNodeOptions } from '../tree-node'
-
-class TreeNode implements TreeNodeOptions {
-  value: number
-  left: TreeNode
-  right: TreeNode
-
-  constructor(node: number) {
-    this.value = node
-  }
-}
+import TreeNode from '../tree-node'
 
 function sortArrayToAST(nums: number[]) {
   function helper(left: number, right: number) {
