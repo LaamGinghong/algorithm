@@ -1,4 +1,4 @@
-function merge(intervals: number[][]): number[][] {
+export function merge(intervals: number[][]): number[][] {
   intervals.sort((a, b) => a[0] - b[0])
   const result: number[][] = []
   let index = -1
