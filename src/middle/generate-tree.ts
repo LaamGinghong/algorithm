@@ -1,6 +1,6 @@
 class TreeNode {
-  left: TreeNode[]
-  right: TreeNode[]
+  left: TreeNode
+  right: TreeNode
   value: number
 
   constructor(value: number, left: TreeNode, right: TreeNode) {
