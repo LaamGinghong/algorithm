@@ -12,6 +12,19 @@ function maxProfit1(prices: number[]) {
 }
 
 function maxProfit2(prices: number[]) {
+  const n = prices.length
+  if (!n) return 0
+  let min = prices[0]
+  const dp: number[] = [min]
+
+  for (let i = 1; i < n; i++) {
+    min = Math.min(min, prices[i])
+    dp[i] = Math.max(dp[i - 1], prices[i] - min)
+  }
+  return dp[n - 1]
+}
+
+function maxProfit3(prices: number[]) {
   let index = 0
   let valley = prices[0]
   let peek = prices[0]
